@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestMee", "QuestMee\QuestMee.csproj", "{62690B4F-EDCA-4444-A919-F99DECBBE6DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestMee.Data", "QuestMee\QuestMee.Data.csproj", "{62690B4F-EDCA-4444-A919-F99DECBBE6DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
