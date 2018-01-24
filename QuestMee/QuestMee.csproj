@@ -111,6 +111,15 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseCategory.cs" />
+    <Compile Include="BaseEntity.cs" />
+    <Compile Include="BaseGroups.cs" />
+    <Compile Include="BasePost.cs" />
+    <Compile Include="BaseStatus.cs" />
+    <Compile Include="BaseThread.cs" />
+    <Compile Include="BaseUserAccount.cs" />
+    <Compile Include="BaseUserStatus.cs" />
+    <Compile Include="BaseVotes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
