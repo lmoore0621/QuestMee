@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestMee.Data", "QuestMee\QuestMee.Data.csproj", "{62690B4F-EDCA-4444-A919-F99DECBBE6DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestMee", "QuestMee\QuestMee.csproj", "{62690B4F-EDCA-4444-A919-F99DECBBE6DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestMee.Model", "QuestMee.Model\QuestMee.Model.csproj", "{5D041198-B28C-41C9-A2AC-23641633CB35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestMee.Data", "QuestMee.Data\QuestMee.Data.csproj", "{95D8C52C-322D-400D-BCEA-0FBE3B46D091}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{B83C341A-24ED-4AC5-B81F-AE2DADB45200}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{1D762ABD-CBB1-436A-A81F-88CE82EFDE64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +23,21 @@ Global
 		{62690B4F-EDCA-4444-A919-F99DECBBE6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62690B4F-EDCA-4444-A919-F99DECBBE6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62690B4F-EDCA-4444-A919-F99DECBBE6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D041198-B28C-41C9-A2AC-23641633CB35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D041198-B28C-41C9-A2AC-23641633CB35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D041198-B28C-41C9-A2AC-23641633CB35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D041198-B28C-41C9-A2AC-23641633CB35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D8C52C-322D-400D-BCEA-0FBE3B46D091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D8C52C-322D-400D-BCEA-0FBE3B46D091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D8C52C-322D-400D-BCEA-0FBE3B46D091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D8C52C-322D-400D-BCEA-0FBE3B46D091}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62690B4F-EDCA-4444-A919-F99DECBBE6DD} = {1D762ABD-CBB1-436A-A81F-88CE82EFDE64}
+		{5D041198-B28C-41C9-A2AC-23641633CB35} = {1D762ABD-CBB1-436A-A81F-88CE82EFDE64}
+		{95D8C52C-322D-400D-BCEA-0FBE3B46D091} = {B83C341A-24ED-4AC5-B81F-AE2DADB45200}
 	EndGlobalSection
 EndGlobal
