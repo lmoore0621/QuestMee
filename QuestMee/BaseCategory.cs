@@ -9,7 +9,6 @@ namespace QuestMee
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public int MyProperty { get; set; }
         public string CreatedTime { get; set; }
     }
 }

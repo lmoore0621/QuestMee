@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestMee", "QuestMee\QuestMee.csproj", "{62690B4F-EDCA-4444-A919-F99DECBBE6DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestMee.Model", "QuestMee.Model\QuestMee.Model.csproj", "{5D041198-B28C-41C9-A2AC-23641633CB35}"
+	ProjectSection(ProjectDependencies) = postProject
+		{62690B4F-EDCA-4444-A919-F99DECBBE6DD} = {62690B4F-EDCA-4444-A919-F99DECBBE6DD}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestMee.Data", "QuestMee.Data\QuestMee.Data.csproj", "{95D8C52C-322D-400D-BCEA-0FBE3B46D091}"
 EndProject

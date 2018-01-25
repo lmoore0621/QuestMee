@@ -118,6 +118,7 @@
     <Compile Include="BaseStatus.cs" />
     <Compile Include="BaseThread.cs" />
     <Compile Include="BaseUserAccount.cs" />
+    <Compile Include="BaseUserGroup.cs" />
     <Compile Include="BaseUserStatus.cs" />
     <Compile Include="BaseVotes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
