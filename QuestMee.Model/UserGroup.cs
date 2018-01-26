@@ -2,6 +2,7 @@
 {
     public class UserGroup : BaseUserGroup
     {
-        public UserAccount UserAccount { get; set; }
+        public virtual UserAccount UserAccount { get; set; }
+        public virtual Groups Group { get; set; }
     }
 }

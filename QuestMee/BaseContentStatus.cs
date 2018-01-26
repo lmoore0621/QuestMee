@@ -5,7 +5,7 @@ using System.Web;
 
 namespace QuestMee
 {
-    public class BaseStatus : BaseEntity
+    public class BaseContentStatus : BaseEntity
     {
         public string Name { get; set; }
     }

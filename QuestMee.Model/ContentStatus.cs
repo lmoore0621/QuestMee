@@ -5,7 +5,7 @@ using System.Web;
 
 namespace QuestMee.Model
 {
-    public class Status : BaseStatus
+    public class ContentStatus : BaseContentStatus
     {
         public List<Category> Categories { get; set; }
         public List<Thread> Threads { get; set; }

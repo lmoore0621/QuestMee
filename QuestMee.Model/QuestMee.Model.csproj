@@ -112,9 +112,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Category.cs" />
+    <Compile Include="Groups.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Status.cs" />
+    <Compile Include="ContentStatus.cs" />
     <Compile Include="Thread.cs" />
     <Compile Include="UserAccount.cs" />
     <Compile Include="UserGroup.cs" />
