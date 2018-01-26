@@ -6,6 +6,7 @@ namespace QuestMee.Model
     {
         public Category Category { get; set; }
 
-        public virtual List<UserGroup> UserGroups { get; set; }
+
+        public virtual ICollection<UserGroup> UserGroups { get; set; }
     }
 }

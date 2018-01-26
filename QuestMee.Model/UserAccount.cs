@@ -9,7 +9,9 @@ namespace QuestMee.Model
 
         public List<Thread> Threads { get; set; }
         public List<Post> Posts { get; set; }
-        public virtual List<UserGroup> UserGroups { get; set; }
         public List<Category> Categories { get; set; }
+
+
+        public virtual List<UserGroup> UserGroups { get; set; }
     }
 }
