@@ -12,6 +12,6 @@ namespace QuestMee.Model
         public List<Category> Categories { get; set; }
 
 
-        public virtual List<UserGroup> UserGroups { get; set; }
+        public virtual ICollection<UserGroup> UserGroups { get; set; }
     }
 }

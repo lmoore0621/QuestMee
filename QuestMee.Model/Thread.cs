@@ -9,7 +9,7 @@ namespace QuestMee.Model
     public class Thread : BaseThread
     {
         public UserAccount UserAccount { get; set; }
-        public Status Status { get; set; }
+        public ContentStatus Status { get; set; }
 
 
         public List<Post> Posts { get; set; }

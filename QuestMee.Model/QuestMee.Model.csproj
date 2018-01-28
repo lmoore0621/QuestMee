@@ -112,7 +112,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Category.cs" />
+    <Compile Include="Data\Repository\IRepository.cs" />
     <Compile Include="Groups.cs" />
+    <Compile Include="Data\Repository\ICategoryRepository.cs" />
+    <Compile Include="Data\Repository\IContentStatusRepository.cs" />
+    <Compile Include="Data\Repository\IGroupsRepository.cs" />
+    <Compile Include="Data\Repository\IPostRepository.cs" />
+    <Compile Include="Data\Repository\IThreadRepository.cs" />
+    <Compile Include="Data\Repository\IUserAccountRepository.cs" />
+    <Compile Include="Data\Repository\IUserGroupRepository.cs" />
+    <Compile Include="Data\Repository\IUserStatusRepository.cs" />
+    <Compile Include="Data\Repository\IVotesRepository.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ContentStatus.cs" />
@@ -127,6 +137,9 @@
       <Project>{62690B4F-EDCA-4444-A919-F99DECBBE6DD}</Project>
       <Name>QuestMee</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Service\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
