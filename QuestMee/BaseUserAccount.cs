@@ -17,6 +17,5 @@ namespace QuestMee
         public virtual string LastActivity { get; set; }
         public bool IsModerator { get; set; }
         public string Status { get; set; }
-        public List<BaseUserStatus> UserStatuses { get; set; }
     }
 }
