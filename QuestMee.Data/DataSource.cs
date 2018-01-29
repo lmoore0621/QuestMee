@@ -30,6 +30,14 @@ namespace QuestMee.Data
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new CategoryConfig());
+            modelBuilder.Configurations.Add(new ContentStatusConfig());
+            modelBuilder.Configurations.Add(new GroupsConfig());
+            modelBuilder.Configurations.Add(new PostConfig());
+            modelBuilder.Configurations.Add(new ThreadConfig());
+            modelBuilder.Configurations.Add(new UserStatusConfig());
+            //.Configurations.Add(new Use());
+            modelBuilder.Configurations.Add(new UserStatusConfig());
+            modelBuilder.Configurations.Add(new VotesConfig());
         }
     }
 }
