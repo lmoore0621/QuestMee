@@ -7,5 +7,7 @@ namespace QuestMee
 {
     public class BaseUserGroup : BaseEntity
     {
+        public int UserId { get; set; }
+        public int GroupsId { get; set; }
     }
 }

@@ -7,6 +7,10 @@ namespace QuestMee
 {
     public class BaseVotes : BaseEntity
     {
+        public int ThreadId { get; set; }
+        public int PostId { get; set; }
+
+
         public int UpVote { get; set; }
         public int DownVote { get; set; }
     }
