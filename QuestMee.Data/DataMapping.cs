@@ -12,6 +12,8 @@ namespace QuestMee.Data
             Property(c => c.Name).HasMaxLength(100).IsRequired();
             Property(c => c.Description).HasMaxLength(250);
             Property(c => c.CreatedTime).HasMaxLength(50);
+
+            HasMany(c => c.Groups).WithRequired(c => c.Category).HasForeignKey(c => c.Id).WillCascadeOnDelete(false);
         }
     }
 
