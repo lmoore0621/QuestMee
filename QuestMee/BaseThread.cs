@@ -7,7 +7,7 @@ namespace QuestMee
 {
     public class BaseThread : BaseEntity
     {
-        public int UserStatusId { get; set; }
+        public int UserAccountId { get; set; }
         public int ContentStatusId { get; set; }
 
 
